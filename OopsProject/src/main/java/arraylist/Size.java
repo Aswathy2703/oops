@@ -1,18 +1,20 @@
-package list;
+package arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArrayList_Clear {
+public class Size {
 
 	public static void main(String[] args) {
-		List<String>obj=new ArrayList <String>();
+		List obj=new ArrayList();
 		//add elements to list
+		obj.add(5);
+		obj.add(2.5f);
 		obj.add("Aswathy");
 		obj.add("Karthika");
 		obj.add("Asheena");
-		obj.clear();//method in java to remove all items from the list
-		System.out.println(obj);
-	}
+		System.out.println(obj.size());
 
+	}
 }
+//index starts from 0

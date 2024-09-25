@@ -1,4 +1,4 @@
-package list;
+package arraylist;
 
 import java.util.*;//all class and interface are imported
 
@@ -6,7 +6,7 @@ import java.util.*;//all class and interface are imported
 public class List1 {
 
 	public static void main(String[] args) {
-		List<String>obj=new ArrayList <String>();
+		List<String>obj=new ArrayList <String>();//syntax
 		//add elements to list
 		obj.add("Aswathy");
 		obj.add("Karthika");

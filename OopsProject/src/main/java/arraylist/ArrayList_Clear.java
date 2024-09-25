@@ -1,9 +1,9 @@
-package list;
+package arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Arraylist_IsEmpty {
+public class ArrayList_Clear {
 
 	public static void main(String[] args) {
 		List<String>obj=new ArrayList <String>();
@@ -11,6 +11,8 @@ public class Arraylist_IsEmpty {
 		obj.add("Aswathy");
 		obj.add("Karthika");
 		obj.add("Asheena");
-		System.out.println(obj.isEmpty());// check the value
+		obj.clear();//method in java to remove all items from the list
+		System.out.println(obj);
 	}
+
 }
